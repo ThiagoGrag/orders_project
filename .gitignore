@@ -1,0 +1,64 @@
+
+# --- Ambientes virtuais ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Cache do Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Logs e outputs temporários ---
+*.log
+*.out
+*.tmp
+
+# --- Dados locais (mantemos só exemplos pequenos) ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Arquivos de configuração sensíveis ---
+*.env
+.env.*
+secrets.yaml
+credentials.json
+
+# --- Build / Pacotes ---
+build/
+dist/
+*.whl
+
+# --- IDEs e editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Databricks / Spark ---
+.sparkStaging/
+derby.log
+metastore_db/
+*.crc
+*.parquet
+*.orc
+
+# --- Docker ---
+*.pid
+*.seed
+*.bak
+*.gz
+docker-compose.override.yml
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
